@@ -1,2 +1,51 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+html {
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-family: monospace;
+}
+
+header {
+  border-bottom: 5px solid blue;
+}
+
+.class-list {
+  list-style-type: square;
+}
+.odd {
+  background-color: black;
+  color: white;
+}
+
+.even {
+  background-color: grey;
+}
+
+.item {
+  border: 3px solid green;
+}
+
+#item1 {
+  font-size: 30px;
+}
+
+#item2 {
+  text-align: right;
+}
+
+#advanced-selectors>ol>li {
+  padding: inherit;
+  background-color: grey;
+}
+
+#advanced-selectors>ol>li:nth-child(2n+1) {
+  background-color: green;
+}
+
+li>a {
+  background-color: yellow;
+}
